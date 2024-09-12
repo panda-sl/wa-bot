@@ -1,0 +1,34 @@
+{
+  "name": "PANDA-MD (2.1.2)",
+  "description": "PANDA-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://telegra.ph/file/4af6c003e83480df3f418.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "panda-md"],
+  "success_url": "/",
+
+  "env": {
+    "BOT_NUMBER": {
+      "description": "94759404990",
+      "required": true
+    },  
+
+    "SESSION_ID": {
+      "description": "PRABATH-MD~p2FyFJrQ#oG6ZHWx1vd0X-hH9jPGBMjBfnVK2PKTkaatlkZ6MwFw",
+      "required": false
+    },  
+
+
+    "GITHUB_AUTH_TOKEN": {
+      "description": "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",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
